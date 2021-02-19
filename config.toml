@@ -2,3 +2,17 @@ baseURL = "https://samjudd.github.io/"
 languageCode = "en-us"
 title = "Sam Judd"
 theme = "papermod"
+
+[params]
+author = "Sam Judd"
+ShowToc = true
+
+[params.homeInfoParams]
+Title = "Blahg"
+Content = """
+Hi, I am biggo rockit ship man.
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/samjudd"
