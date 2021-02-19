@@ -1,0 +1,6 @@
+= Sam Judd's website
+
+== Setup
+
+This website is built with  link:https://gohugo.io/[Hugo].
+To serve it locally simply have hugo installed and run `hugo serve -D`
