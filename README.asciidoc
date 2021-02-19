@@ -4,3 +4,6 @@
 
 This website is built with  link:https://gohugo.io/[Hugo].
 To serve it locally simply have hugo installed and run `hugo serve -D`
+
+== Adding Content
+To add a new post use `hugo new post/my_new_post.md` (obviously change the name of the psot).
