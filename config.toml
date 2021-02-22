@@ -8,11 +8,27 @@ author = "Sam Judd"
 ShowToc = true
 
 [params.homeInfoParams]
-Title = "Blahg"
+Title = "Sam's Blog"
 Content = """
-Hi, I am biggo rockit ship man.
+Hi, I am a manufacturing engineer at Blue Origin currently working on manufacturing 3D printed copper rocket components. I made this blog to document my efforts moonlighting as a solo game developer. 
 """
 
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/samjudd"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/mala_mut3"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/juddsamuel/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:samjudd@protonmail.com"
+
+[[params.socialIcons]]
+name = "other"
+url = ""

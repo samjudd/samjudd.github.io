@@ -3,7 +3,10 @@
 == Setup
 
 This website is built with  link:https://gohugo.io/[Hugo].
+
+Clone the theme submodules into the directory with `git submodule update --init --recursive`
+
 To serve it locally simply have hugo installed and run `hugo serve -D`
 
 == Adding Content
-To add a new post use `hugo new post/my_new_post.md` (obviously change the name of the psot).
+To add a new post use `hugo new post/my_new_post.md` (obviously change the name of the post).
