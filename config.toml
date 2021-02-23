@@ -11,6 +11,9 @@ ShowToc = true
 Title = "Sam's Blog"
 Content = """
 Hi, I am a manufacturing engineer at Blue Origin currently working on manufacturing 3D printed copper rocket components. I made this blog to document my efforts moonlighting as a solo game developer. 
+
+
+Currently trying to figure out how to add a captcha or something before adding my email here. In the meantime just DM me on twitter or linkedin to contact me. Thanks!
 """
 
 [[params.socialIcons]]
@@ -24,7 +27,3 @@ url = "https://twitter.com/mala_mut3"
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/juddsamuel/"
-
-[[params.socialIcons]]
-name = "email"
-url = "mailto:samjudd@protonmail.com"
