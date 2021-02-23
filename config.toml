@@ -28,7 +28,3 @@ url = "https://www.linkedin.com/in/juddsamuel/"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:samjudd@protonmail.com"
-
-[[params.socialIcons]]
-name = "other"
-url = ""
