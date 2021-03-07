@@ -10,10 +10,10 @@ ShowToc = true
 [params.homeInfoParams]
 Title = "Sam's Blog"
 Content = """
-Hi, I am a manufacturing engineer at Blue Origin currently working on manufacturing 3D printed copper rocket components. 
+Hi, I am a manufacturing engineer at Blue Origin currently working on manufacturing engineering for  3D printed copper rocket components. 
 I made this blog to document my efforts moonlighting as a solo game developer. 
 
-__Contact Me:__ samjudd (at) protonmail (dot) com
+__Contact Me:__ samjudd [at] protonmail [dot] com
 """
 
 [[params.socialIcons]]
