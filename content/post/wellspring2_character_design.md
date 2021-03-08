@@ -1,12 +1,12 @@
 ---
 title: "Wellspring 2: Character Design"
 date: 2021-03-06T15:04:02-08:00
-draft: true
+draft: false
 ---
 
 ## Introduction
 
-Now that I’ve talked about map design in the [previous post]({{< ref "wellspring2_intro_and_map.md" >}}), the next thing to get to is the character design. To establish the basics, each character has some amount of health (can vary between characters) that gets depleted as they take damage from enemy characters. When they reach 0, they are out of the game for some length of time before respawning in their own base. Each character is controlled to walk with WASD and look with the mouse. They have a basic attack bound on the left click and abilities bound to the right click, Q, E and R keys. These abilities can be just about anything and are unique to each character. Each ability has both a cooldown in seconds between uses. Each ability can also be upgraded during the game by collecting the supply caches mentioned in the map post. 
+Now that I’ve talked about map design in the [previous post]({{< relref "wellspring2_intro_and_map.md" >}}), the next thing to get to is the character design. To establish the basics, each character has some amount of health (can vary between characters) that gets depleted as they take damage from enemy characters. When they reach 0, they are out of the game for some length of time before respawning in their own base. Each character is controlled to walk with WASD and look with the mouse. They have a basic attack bound on the left click and abilities bound to the right click, Q, E and R keys. These abilities can be just about anything and are unique to each character. Each ability has both a cooldown in seconds between uses. Each ability can also be upgraded during the game by collecting the supply caches mentioned in the map post. 
 
 ## Character Design Methodology
 
@@ -138,4 +138,4 @@ The ideal for this character is someone who can skirt around the outsides of the
 
 ## End of Post
 
-This is the end of the design work I did on game characters I did because I stopped working on this particular prototype. In the [next post]({{< ref "wellspring2_lessons_and_conclusions.md" >}}), I’ll talk a bit about what I learned from making this game prototype as well as what my next steps are in game development. 
+This is the end of the design work I did on game characters I did because I stopped working on this particular prototype. In the [next post]({{< relref "wellspring2_lessons_and_conclusions.md" >}}), I’ll talk a bit about what I learned from making this game prototype as well as what my next steps are in game development. 

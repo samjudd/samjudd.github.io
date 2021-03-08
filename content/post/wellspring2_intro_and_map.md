@@ -83,4 +83,4 @@ I liked this map a bit more since it made the game symmetrical, so it makes best
 
 ## End of Post
 
-Thanks for reading this post! I will continue in the [next post]({{< ref "wellspring2_character_design.md" >}}) to talk about character design in Wellspring 2. 
+Thanks for reading this post! I will continue in the [next post]({{< relref "wellspring2_character_design.md" >}}) to talk about character design in Wellspring 2. 
