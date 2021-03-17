@@ -27,3 +27,7 @@ url = "https://twitter.com/mala_mut3"
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/juddsamuel/"
+
+[[params.socialIcons]]
+name = "itchio"
+url = "https://itch.io/profile/malamute"
