@@ -33,7 +33,7 @@ I needed to make each character have their own strong points where they excel wh
 The 10 planned characters each have two of the attributes I was thinking of. A couple groupings of attributes could be interpreted in different ways and so there aren’t 10 unique groupings. Assigning each character 2 attributes was a useful exercise because it limits me from making kits that are too overloaded. Another interesting challenge would be to make a character for every possible combination of attributes. I just haven’t gotten to that yet. Some combinations I think are more straightforward than others to make useful combinations versus others. Most of the easier ones are listed below. 
 
 1.	**Tank / Utility**
-    - This character I imagined as some sort of engager. This character would be able to use their abilities to disable single targets and hold them in place for their team to fight. They would also be able to absorb damage after they have started a fight. They would have trouble doing well into enemies that are engaging on them or dealing with multiple targets. 
+    - This character I imagined as some sort of engager. This character would be able to use their abilities to disable single targets and hold them in place for their team to fight. They would also be able to absorb damage after they have started a fight. They would have trouble doing well into enemies that are attempting to start a fight on them or dealing with multiple targets. 
     - **Example Abilities:** 
         - Not sure yet. 
 
@@ -45,7 +45,7 @@ The 10 planned characters each have two of the attributes I was thinking of. A c
 3.	**Sustained Damage / Mobility**
     - This character is a melee damage carry with the ability to skirt around a fight dealing damage with their abilities while avoiding it using their mobility. This character would do well in extended fights that are chaotic but would have issues if they are unable to use their mobility to avoid enemy damage as they are not very tanky and need to be in melee range to deal damage. 
     - **Example Abilities:** 
-        - Tracer charge – character can throw a charge and then blink to the charge but only if the charge is within line of sight. 
+        - Tracer Mark – character can throw a mark and then teleport to the mark but only if the mark is within line of sight. 
         - Totem – character can lay down totems that can be teleported to at any time, though the teleport takes a small channel where character is vulnerable. 
 
 4.	**Tank / Utility**
