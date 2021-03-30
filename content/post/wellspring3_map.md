@@ -1,5 +1,5 @@
 ---
-title: "Wellspring3: Hex Map Creation"
+title: "Wellspring 3: Hex Map Creation"
 date: 2021-03-29T12:12:21-07:00
 draft: false
 ---
