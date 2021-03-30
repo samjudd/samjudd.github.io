@@ -22,11 +22,11 @@ Reading about why this is the case, I stumbled on a few articles that seemed to 
 
 With this information, I was able to make the first basic ideas of what my game would look like and start prototyping. The basic concept was that the player is a mech pilot, inside of a mech, fighting another mech and pilot combo in 1v1 combat. The main controls for the game are the controllers, which the headset can track in 3D space relative to the headset itself. The player starts holding the controllers in front of them similar to this picture (this is not me). 
 
-![Player Position](/player_position.png)
+![Player Position](/wellspring1/player_position.png)
 
 The player can move the mech through moving the controllers as though they are control sticks by pushing them forward and back, as shown in the diagram below. 
 
-![Controller Position Diagram](/controller_position_diagram.png)
+![Controller Position Diagram](/wellspring1/controller_position_diagram.png)
 
 What makes this control system unique is that in addition to the controllers serving as the movement system, they also serve as the main combat controllers. By pressing on the grip button on the controller, the position of that hand stops controlling movement and starts to control the corresponding hand on the mech. When using only one hand to control the mech, the player can still strafe and do forward/backwards motion (no rotation), but with only 70% of the speed/acceleration as previously. This creates a number of interesting decisions/tradeoffs for the player to manage as they’re fighting and adds a level of mechanical growth to master. When an arm of the mech is not controlled, the arm just freezes in position. This enables a player to, for example, place both hands in a blocking position and then leave them to block while transferring control to the locomotion to retreat with both hands at full speed. Or fight with one hand while moving with the other. I am not sure how fighting with both hands would work out yet. I was thinking that the mech would have some momentum so a player could push forward to accelerate quickly and then switch to a 2 handed attack. This may end up being just suboptimal though. This would have to be fleshed out and understood in test. 
 
@@ -34,7 +34,7 @@ The main risk I thought about for this system is that it might be too hard to ma
 
 Another nuance to the fighting system I had thought about was making weapons that make sense with VR. Swordfighting in a way that makes intuitive sense is hard. There is nothing to stop your hands in real life, so how do you block a sword with another sword? Asking myself this question led to another; what if swords cut each other? This way when two swords interacted, both would be cut off at the “block” location, which essentially blocks, but is also consistent with how VR works. Technically, this is an easy solution to implement with raycasts. Raycasts are inexpensive to use and then can then also detect impact with another player for damage as well as be used to cut the sword asset to length based on the impact point. The sword then regenerates to full length if no more contact occurs after a second or two. I think this would be an interesting mechanic for a player to interact with while fighting. As far as lore is concerned, I was going to make the sword a focused beam of plasma, and when contacted by another it loses magnetic confinement and disperses, becoming unable to cut. My prototype used a number of cylinders to represent the sword blade, as shown below. 
 
-![Sword Diagram](/sword_diagram.png)
+![Sword Diagram](/wellspring1/sword_diagram.png)
 
 I did some brainstorming about other weapons that could be put into the game. In real life, the cost of length or weight in a weapon is that it becomes harder to swing because it is heavier. In VR, every weapon is the same weight, the weight of the controller. This requires weapons with different amounts of reach to have other tradeoffs. Other weapons that I thoughts about were: 
 
@@ -48,9 +48,9 @@ With the above thoughts in mind, I started prototyping. The main tools I used we
 
 I first started out by making a mech cockpit I could use to see how I felt with a framed cockpit as opposed in just empty space. I used the grease pencil tool to sketch out a basic design and then some Boolean operations on the simple starter shapes to make the volumes. 
 
-![Mech Cockpit Side View](/mech_cockpit_pic_1.png#center) 
+![Mech Cockpit Side View](/wellspring1/mech_cockpit_pic_1.png#center) 
 
-![Mech Cockpit Isometric View](/mech_cockpit_pic_2.png#center)
+![Mech Cockpit Isometric View](/wellspring1/mech_cockpit_pic_2.png#center)
 
 The next step was coding up a basic movement engine using the oculus unity integration to query the position of the head frame of the headset and the controller locations. This was then used to move the player according to the controller position diagram. During implementation, I created small “home positions” that the player could home to denote where the controllers would be held to signal no input. These positions defined the home line in the diagram and could be seen by the player in the mech. The home positions were determined by having the player go to the home position and press a button. The player then extended their arms all the way out and out to the sides as well. The front and side arm extensions determined what “full throttle” was. The input was then scaled from 0 to 1 where 0 is the home position and 1 is full throttle. This was done for forward/back and left/right movement. This process is seen in the video below. 
 
@@ -77,9 +77,9 @@ In order to implement cabin shake in the mech, I tracked the distance traveled b
 
 Finally, the biggest addition after the initial prototyping was the addition of a sword and shield. I first generated the models seen below in blender. I then used the tagging functions in unity to tag the objects that the sword and shield should collide with and damage. Upon contact with an object, the raycast was used to cut the sword length to the right height based on where the raycast contact is. 
 
-![Player Position](/sword_picture.png#center)
+![Player Position](/wellspring1/sword_picture.png#center)
 
-![Player Position](/buckler_picture.png#center)
+![Player Position](/wellspring1/buckler_picture.png#center)
 
 ## Completed Prototype 
 

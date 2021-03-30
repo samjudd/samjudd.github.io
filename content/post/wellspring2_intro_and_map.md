@@ -56,7 +56,7 @@ I’ll go through my first prototype map first before I get to the second protot
 ### Asymmetric Map Prototype
 The first map I had was based around an asymmetrical siege game mode. One team would be protecting a citadel from another team trying to invade and destroy it. The green area is forested while the tan area immediately around the citadel is not forested. 
 
-![Asymmetric Map Prototype](/circle_map_2.png)
+![Asymmetric Map Prototype](/wellspring2_intro_and_map/circle_map_2.png)
 
 As can be seen in the map, the red team would spawn somewhere on the outskirts of the circle and would have to invade the citadel and try to capture it. The blue team would spawn in the central citadel and would have to ascertain where the red team was coming from and defend for a specified length of time. 
 
@@ -70,7 +70,7 @@ One downside to this game mode is that it is asymmetrical, so in order to play a
 
 This second prototype tried to take a lot of the core concepts I already had for the siege game map and use them to make a symmetrical game mode. This resulted in the siege mode turning into the capture the flag mode I previously discussed. I thought this maintained a lot of the same concepts of trying to either sneak into the base or just straight invade it, but allows both teams to look to both steal the flags and defend their own. 
 
-![Symmetric Map Prototype](/rectangle_map_3.png)
+![Symmetric Map Prototype](/wellspring2_intro_and_map/rectangle_map_3.png)
 
 Both teams would start the game in their own bases. Each base is protected by some turrets and an alarm system that alerts if a member of the other team is detected in the base. Placed on a road through the forest are 2 generators for each team. Destroying either generator will deactivate the turrets, while destroying both will deactivate both the turrets and the alarm system. These generators are unable to be rebuilt. The idea behind these generators is to create a secondary objective to fight over besides the main base and to slow the game down a bit so an immediate base rush is hard to accomplish without accomplishing this intermediate objective. 
 
