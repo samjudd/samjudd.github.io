@@ -10,10 +10,14 @@ ShowToc = true
 [params.homeInfoParams]
 Title = "Sam's Blog"
 Content = """
-Hi, I am a manufacturing engineer at Blue Origin currently working on manufacturing engineering for  3D printed copper rocket components. 
-I made this blog to document my efforts moonlighting as a solo game developer. 
+Hi, I am an engineer at Blue Origin currently working on manufacturing engineering for  3D printed copper rocket components. 
+I made this blog to document my efforts moonlighting as a solo game developer.
+This blog mostly focuses on the development process and game design decisions I am making as I develop my games. 
+All the code for my games is openly hosted on github, which can be reached by clicking on the github icon below.
 
-__Contact Me:__ samjudd [at] protonmail [dot] com
+---
+
+__Contact Info:__ samjudd [at] protonmail [dot] com
 """
 
 [[params.socialIcons]]
