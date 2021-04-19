@@ -1,7 +1,7 @@
 ---
 title: "Wellspring 3: Basic Character Movement"
 date: 2021-04-18T14:44:03-07:00
-draft: FALSE
+draft: false
 ---
 
 ## Wellspring 3: Basic Character Movement
