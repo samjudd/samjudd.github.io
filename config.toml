@@ -35,3 +35,13 @@ url = "https://www.linkedin.com/in/juddsamuel/"
 [[params.socialIcons]]
 name = "itchio"
 url = "https://itch.io/profile/malamute"
+
+
+[module]
+[[module.imports]]
+path = "github.com/divinerites/plausible-hugo"
+
+[params.plausible]
+enable = true  # Whether to enable plausible tracking
+domain = "samjudd.github.io"  # Plausible "domain" name/id in your dashboard
+selfhosted_domain = "stats.judd.blue"  # Self-hosted plausible domain
