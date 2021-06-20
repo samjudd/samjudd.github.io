@@ -4,8 +4,6 @@ date: 2021-04-18T14:44:03-07:00
 draft: false
 ---
 
-## Wellspring 3: Basic Character Movement
-
 Quick update for now, I was able to get character movement working last week, as well as cleaning up a lot of the code that I had to make the interface a little easier to use and expose the right things. 
 From a couple weeks ago, I had left 5 goals for the next steps in the game. 
 I did pretty well, and this update finishes off goals 1-3 and goal 5 listed below (from the end of last post). 
@@ -16,7 +14,7 @@ I did pretty well, and this update finishes off goals 1-3 and goal 5 listed belo
 4. Be able to be selected and deselected.
 5. Reset its movement/action points upon a new turn.
 
-### Character Selection 
+## Character Selection 
 
 In order to select characters, I decided to create 2 classes, a `GameManager` class that oversees all the characters in the game and a `Character` class that has one instance for each character. 
 `Character` can be both used as a template for making more advanced classes for the actual game and used on its own for testing (which is what I'm doing now).
@@ -29,7 +27,7 @@ Each tile stores if there is a character on it and if so what character ID numbe
 When a character is selected, the movement algorithm is automatically run to show their movement range.
 At the moment for testing, each character is shown with 8 movement points, where a tile costs 2 to move across and a forest tile costs 4. 
 
-### Character Movement
+## Character Movement
 
 Character movement was pretty straightforward to implement. 
 I first changed the way the pathfinding algorithm worked slightly so it returned the dictionary it created for pathfinding. 
@@ -46,7 +44,7 @@ An improvement I'd like to make at some point is to change the interpolation sch
 A different movement scheme (for example a quadratic interpolation instead of a linear one) might do a better job of making the movement seem more natural. 
 At the moment however I'm more interested in just having a minimum viable product, so I'd rather spend my time creating new features rather than polishing ones I already have in a functional state. 
 
-### Implementation Video 
+## Implementation Video 
 
 A video of the implementation is shown below. 
 I still need to get to implementing a UI, so it's a bit hard to tell at the moment what is going on, I've added some notes in the video to try to make it clearer. 

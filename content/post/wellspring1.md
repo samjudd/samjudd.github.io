@@ -4,8 +4,6 @@ date: 2021-02-21T13:11:26-08:00
 draft: false
 ---
 
-## Introduction
-
 On the advice of my brother, I decided to start writing about my work developing a game by myself. So here goes. I started working on this a long time ago, so this work goes back in time to September-ish 2019. 
 
 I have always enjoyed playing games (some would say too much) and after working in the aerospace industry for a few years I sorta decided that it is not really my life’s passion. I had taken a few classes in video game development in college and so decided to try this out. I was looking to create a game that I would have fun playing and would be good as a community game to play. 

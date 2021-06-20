@@ -4,8 +4,6 @@ date: 2021-03-06T15:04:02-08:00
 draft: false
 ---
 
-## Introduction
-
 Now that I’ve talked about map design in the [previous post]({{< relref "wellspring2_intro_and_map.md" >}}), the next thing to get to is the character design. To establish the basics, each character has some amount of health (can vary between characters) that gets depleted as they take damage from enemy characters. When they reach 0, they are out of the game for some length of time before respawning in their own base. Each character is controlled to walk with WASD and look with the mouse. They have a basic attack bound on the left click and abilities bound to the right click, Q, E and R keys. These abilities can be just about anything and are unique to each character. Each ability has both a cooldown in seconds between uses. Each ability can also be upgraded during the game by collecting the supply caches mentioned in the map post. 
 
 ## Character Design Methodology
